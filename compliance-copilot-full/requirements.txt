@@ -1,0 +1,21 @@
+langchain>=0.2,<0.3
+langchain-core>=0.2,<0.3
+langchain-community>=0.2,<0.3
+langchain-text-splitters>=0.2,<0.3
+langgraph>=0.1,<0.2
+
+faiss-cpu
+chromadb>=0.5
+sentence-transformers>=2.5
+pydantic>=2.0
+python-dotenv>=1.0
+fastapi>=0.111
+uvicorn[standard]>=0.30
+beautifulsoup4>=4.12
+trafilatura>=1.7
+pyyaml>=6.0
+# Provider splits (choose one or both)
+langchain-openai>=0.1
+langchain-ollama>=0.1
+# Optional for web snapshots (skip on Windows if needed)
+playwright>=1.44; platform_system != "Windows"
