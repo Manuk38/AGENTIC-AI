@@ -1,0 +1,18 @@
+misra:
+  banned_constructs: [goto, nested_comments, trigraphs, wide_string_literals]
+  enforce: [const_correctness, no_hidden_side_effects, explicit_casts_review]
+  citation_rule: "Only cite rules included in retrieved context.rules"
+do178c:
+  objectives:
+    - "Traceability: HL->LL->Code->Test"
+    - "Low-level requirements testable & consistent"
+    - "Structural coverage required; aim for MC/DC where applicable"
+  evidence_required:
+    - "Compilation with zero errors"
+    - "Unit tests passing"
+    - "Coverage summary"
+judge:
+  accept_only_if:
+    - "No MISRA banned constructs in final code"
+    - "All findings resolved or justified with rule_id and rationale"
+    - "Traceability table present"

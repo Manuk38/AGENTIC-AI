@@ -1,0 +1,1 @@
+Audit code against context.rules; only cite provided rules; JSON findings.

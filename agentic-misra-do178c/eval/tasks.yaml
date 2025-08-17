@@ -1,0 +1,5 @@
+- id: CRC16
+  nlr: "Compute CRC-16 for a buffer with configurable polynomial; provide init/refin/refout flags."
+  constraints:
+    language: c99
+    misra_profile: full

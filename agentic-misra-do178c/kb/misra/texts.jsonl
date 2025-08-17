@@ -1,0 +1,610 @@
+Rule 1 (required) — All  code  shall  conform  to  ISO  9899  standard  C,  with  no  extensions
+Interpretation: 
+Functional specification: 
+Precaution: 
+Limitation: 
+Rule 2 (advisory) — Code written in languages other than C should only be used if there is a
+Interpretation: 
+Functional specification: 
+Precaution: 
+Limitation: 
+Rule 3 (required) — Assembly language functions that are called from C should be written as
+Interpretation: 
+Functional specification: 
+Precaution: 
+Limitation: 
+Rule 4 (advisory) — Provision should be made for appropriate run-time checking.
+Interpretation: 
+Functional specification: 
+Precaution: 
+Limitation: 
+Rule 5 (required) — Only those characters and escape sequences which are defined in the
+Interpretation: 
+Functional specification: 
+Precaution: 
+Limitation: 
+Rule 6 (required) — Values  of  character  types  shall  be  restricted  to  a  defined  and
+Interpretation: 
+Functional specification: 
+Precaution: 
+Limitation: 
+Rule 7 (required) — Trigraphs shall not be used.
+Interpretation: 
+Functional specification: 
+Precaution: 
+Limitation: 
+Rule 8 (required) — Multibyte characters and wide string literals shall not be used.
+Interpretation: 
+Functional specification: 
+Precaution: 
+Limitation: 
+Rule 9 (required) — Comments shall not be nested.
+Interpretation: 
+Functional specification: 
+Precaution: 
+Limitation: 
+Rule 10 (advisory) — Sections of code should not be 'commented out'.
+Interpretation: 
+Functional specification: 
+Precaution: 
+Limitation: 
+Rule 11 (required) — Identifiers  (internal  and  external)  shall  not  rely  on  significance  of  more
+Interpretation: 
+Functional specification: 
+Precaution: 
+Limitation: 
+Rule 12 (advisory) — No  identifier  in  one  name  space  shall  have  the  same  spelling  as  an
+Interpretation: 
+Functional specification: 
+Precaution: 
+Limitation: 
+Rule 13 (advisory) — The basic types of char, int, short, long, float and double should not be
+Interpretation: 
+Functional specification: 
+Precaution: 
+Limitation: 
+Rule 14 (required) — The type char shall always be declared as unsigned char or signed char.
+Interpretation: 
+Functional specification: 
+Precaution: 
+Limitation: 
+Rule 17 (required) — typedef names shall not be reused.
+Interpretation: 
+Functional specification: 
+Precaution: 
+Limitation: 
+Rule 18 (advisory) — Numeric  constants  should  be  suffixed  to  indicate  type,  where  an
+Interpretation: 
+Functional specification: 
+Precaution: 
+Limitation: 
+Rule 19 (required) — Octal constants (other than zero) shall not used.
+Interpretation: 
+Functional specification: 
+Precaution: 
+Limitation: 
+Rule 20 (required) — All object and function identifiers shall be declared before use.
+Interpretation: 
+Functional specification: 
+Precaution: 
+Limitation: 
+Rule 21 (required) — Identifiers in an inner scope shall not use the same name as an identifier
+Interpretation: 
+Functional specification: 
+Precaution: 
+Limitation: 
+Rule 22 (advisory) — Declarations  of  objects  should  be  at  function  scope  unless  a  wider
+Interpretation: 
+Functional specification: 
+Precaution: 
+Limitation: 
+Rule 24 (required) — Identifiers  shall  not  simultaneously  have  both  internal  and  external
+Interpretation: 
+Functional specification: 
+Precaution: 
+Limitation: 
+Rule 25 (required) — An  identifier  with  external  linkage  shall  have  exactly  one  external
+Interpretation: 
+Functional specification: 
+Precaution: 
+Limitation: 
+Rule 28 (advisory) — The register storage class specifier should not be used.
+Interpretation: 
+Functional specification: 
+Precaution: 
+Limitation: 
+Rule 29 (required) — The use of a tag shall agree with its declaration.
+Interpretation: 
+Functional specification: 
+Precaution: 
+Limitation: 
+Rule 30 (required) — All  automatic  variables  shall  have  been  assigned  a  value  before  being
+Interpretation: 
+Functional specification: 
+Precaution: 
+Limitation: 
+Rule 31 (required) — Braces shall be used to indicate and match the structure in the non-zero
+Interpretation: 
+Functional specification: 
+Precaution: 
+Limitation: 
+Rule 32 (required) — In  an  enumerator  list,  the  '='  construct  shall  not  be  used  to  explicitly
+Interpretation: 
+Functional specification: 
+Precaution: 
+Limitation: 
+Rule 33 (required) — The  right  hand  operator  of  a  &&  or  ||  operator  shall  not  contain  side
+Interpretation: 
+Functional specification: 
+Precaution: 
+Limitation: 
+Rule 34 (required) — The operands of a logical && or || shall be primary expressions.
+Interpretation: 
+Functional specification: 
+Precaution: 
+Limitation: 
+Rule 35 (required) — Assignment  operators  shall  not  be  used  in  expressions  which  return
+Interpretation: 
+Functional specification: 
+Precaution: 
+Limitation: 
+Rule 36 (advisory) — Logical operators should not be confused with bitwise operators.
+Interpretation: 
+Functional specification: 
+Precaution: 
+Limitation: 
+Rule 37 (required) — Bitwise operations shall not be performed on signed integer types.
+Interpretation: 
+Functional specification: 
+Precaution: 
+Limitation: 
+Rule 38 (required) — The  right  hand  operand  of  a  shift  operator  shall  lie  between  zero  and
+Interpretation: 
+Functional specification: 
+Precaution: 
+Limitation: 
+Rule 39 (required) — The  unary  minus  operator  shall  not  be  applied  to  an  unsigned
+Interpretation: 
+Functional specification: 
+Precaution: 
+Limitation: 
+Rule 40 (advisory) — The sizeof operator should not be used to expressions that contain side
+Interpretation: 
+Functional specification: 
+Precaution: 
+Limitation: 
+Rule 41 (advisory) — The implementation of integer division in the chosen compiler should be
+Interpretation: 
+Functional specification: 
+Precaution: 
+Limitation: 
+Rule 42 (required) — The comma operator shall not be used, except in the control expression
+Interpretation: 
+Functional specification: 
+Precaution: 
+Limitation: 
+Rule 43 (required) — Implicit conversion which may result in a loss of information shall not be
+Interpretation: 
+Functional specification: 
+Precaution: 
+Limitation: 
+Rule 44 (advisory) — Redundant explicit casts should not be used.
+Interpretation: 
+Functional specification: 
+Precaution: 
+Limitation: 
+Rule 45 (required) — Type casting from any type to or from pointers shall not be used.
+Interpretation: 
+Functional specification: 
+Precaution: 
+Limitation: 
+Rule 46 (required) — The  value  of  an  expression  shall  be  the  same  under  any  order  of
+Interpretation: 
+Functional specification: 
+Precaution: 
+Limitation: 
+Rule 47 (advisory) — No  dependence  should  be  placed  on  C's  operator  precedence  rules  in
+Interpretation: 
+Functional specification: 
+Precaution: 
+Limitation: 
+Rule 48 (advisory) — Mixed  precision  arithmetic  should  use  explicit  casting  to  generate  the
+Interpretation: 
+Functional specification: 
+Precaution: 
+Limitation: 
+Rule 49 (advisory) — Tests  of  a  value  against  zero  should  be  made  explicit,  unless  the
+Interpretation: 
+Functional specification: 
+Precaution: 
+Limitation: 
+Rule 50 (required) — Floating-point  variables  shall  not  be  tested  for  exact  equality  or
+Interpretation: 
+Functional specification: 
+Precaution: 
+Limitation: 
+Rule 51 (advisory) — Evaluation of constant unsigned integer expressions should not lead to
+Interpretation: 
+Functional specification: 
+Precaution: 
+Limitation: 
+Rule 52 (required) — There shall be no unreachable code.
+Interpretation: 
+Functional specification: 
+Precaution: 
+Limitation: 
+Rule 53 (required) — All non-null statements shall have a side-effect.
+Interpretation: 
+Functional specification: 
+Precaution: 
+Limitation: 
+Rule 54 (required) — A  null  statement  shall only  occur on  a  line  by  itself,  and shall  not  have
+Interpretation: 
+Functional specification: 
+Precaution: 
+Limitation: 
+Rule 55 (advisory) — Labels should not be used, except in switch statements.
+Interpretation: 
+Functional specification: 
+Precaution: 
+Limitation: 
+Rule 56 (required) — The goto statement shall not be used.
+Interpretation: 
+Functional specification: 
+Precaution: 
+Limitation: 
+Rule 57 (required) — The continue statement shall not be used.
+Interpretation: 
+Functional specification: 
+Precaution: 
+Limitation: 
+Rule 58 (required) — The break statement shall not be used (except to terminate the cases of
+Interpretation: 
+Functional specification: 
+Precaution: 
+Limitation: 
+Rule 59 (required) — The statements forming the body of an if, else if, else, while, do ... while,
+Interpretation: 
+Functional specification: 
+Precaution: 
+Limitation: 
+Rule 60 (advisory) — All if, else if constructs should contain a final else clause.
+Interpretation: 
+Functional specification: 
+Precaution: 
+Limitation: 
+Rule 61 (required) — Every non-empty case clause in a switch statement shall be terminated
+Interpretation: 
+Functional specification: 
+Precaution: 
+Limitation: 
+Rule 62 (required) — All switch statements should contain a final default clause.
+Interpretation: 
+Functional specification: 
+Precaution: 
+Limitation: 
+Rule 63 (advisory) — A switch expression should not represent a Boolean value.
+Interpretation: 
+Functional specification: 
+Precaution: 
+Limitation: 
+Rule 64 (required) — Every switch statements shall have at least one case.
+Interpretation: 
+Functional specification: 
+Precaution: 
+Limitation: 
+Rule 65 (required) — Floating-point variables shall not be used as loop counters.
+Interpretation: 
+Functional specification: 
+Precaution: 
+Limitation: 
+Rule 66 (advisory) — Only expressions concerned with loop control should appear within a for
+Interpretation: 
+Functional specification: 
+Precaution: 
+Limitation: 
+Rule 67 (advisory) — Numeric  variables  being  used  within  a  for  loop  for  iteration  counting
+Interpretation: 
+Functional specification: 
+Precaution: 
+Limitation: 
+Rule 68 (required) — Functions shall always be declared at file scope.
+Interpretation: 
+Functional specification: 
+Precaution: 
+Limitation: 
+Rule 69 (required) — Functions with variable numbers of arguments shall not be used.
+Interpretation: 
+Functional specification: 
+Precaution: 
+Limitation: 
+Rule 70 (required) — Functions shall not call themselves, either directly or indirectly.
+Interpretation: 
+Functional specification: 
+Precaution: 
+Limitation: 
+Rule 71 (required) — Functions  shall  always  have  prototype  declarations  and  the  prototype
+Interpretation: 
+Functional specification: 
+Precaution: 
+Limitation: 
+Rule 72 (required) — For  each  function  parameter  the  type  given  in  the  declaration  and
+Interpretation: 
+Functional specification: 
+Precaution: 
+Limitation: 
+Rule 73 (required) — Identifiers  shall  either  be  given  for  all  of  the  parameters  in  a  function
+Interpretation: 
+Functional specification: 
+Precaution: 
+Limitation: 
+Rule 74 (required) — If  identifiers  are  given  for  any  of  the  parameters,  then  the  identifiers
+Interpretation: 
+Functional specification: 
+Precaution: 
+Limitation: 
+Rule 75 (required) — Every function shall have an explicit return type.
+Interpretation: 
+Functional specification: 
+Precaution: 
+Limitation: 
+Rule 76 (required) — Function with no parameters shall be declared with parameter type void.
+Interpretation: 
+Functional specification: 
+Precaution: 
+Limitation: 
+Rule 77 (required) — The  unqualified  type  of  parameters  passed  to  a  function  shall  be
+Interpretation: 
+Functional specification: 
+Precaution: 
+Limitation: 
+Rule 78 (required) — The number of parameters passed to a function shall match the function
+Interpretation: 
+Functional specification: 
+Precaution: 
+Limitation: 
+Rule 79 (required) — The values returned by void functions shall not be used.
+Interpretation: 
+Functional specification: 
+Precaution: 
+Limitation: 
+Rule 80 (required) — Void expression shall not be passed as function parameters.
+Interpretation: 
+Functional specification: 
+Precaution: 
+Limitation: 
+Rule 81 (advisory) — const  qualification  should  be  used  on  function  parameters  which  are
+Interpretation: 
+Functional specification: 
+Precaution: 
+Limitation: 
+Rule 82 (advisory) — A function should have a single point of exit.
+Interpretation: 
+Functional specification: 
+Precaution: 
+Limitation: 
+Rule 83 (required) — For  functions  with  non-void  return  type:  i)  there  shall  be  one  return
+Interpretation: 
+Functional specification: 
+Precaution: 
+Limitation: 
+Rule 84 (required) — For  function  with  void  return  type,  return  statements  shall  not  have  an
+Interpretation: 
+Functional specification: 
+Precaution: 
+Limitation: 
+Rule 85 (advisory) — Function called with no parameters should have empty parentheses.
+Interpretation: 
+Functional specification: 
+Precaution: 
+Limitation: 
+Rule 86 (advisory) — If a function returns error information, then that error information should
+Interpretation: 
+Functional specification: 
+Precaution: 
+Limitation: 
+Rule 87 (required) — #include  statements
+Interpretation: 
+Functional specification: 
+Precaution: 
+Limitation: 
+Rule 88 (required) — Non-standard characters shall not occur in header file names in #include
+Interpretation: 
+Functional specification: 
+Precaution: 
+Limitation: 
+Rule 88 (required) — The  #include  directive  shall  be  followed  by  either  a  <filename>  or
+Interpretation: 
+Functional specification: 
+Precaution: 
+Limitation: 
+Rule 90 (required) — C  macros  shall  only  be  used  for  symbolic  constants,  function-like
+Interpretation: 
+Functional specification: 
+Precaution: 
+Limitation: 
+Rule 91 (required) — Macros shall not be #define'd and #undef'd within a block.
+Interpretation: 
+Functional specification: 
+Precaution: 
+Limitation: 
+Rule 92 (advisory) — A #undef should not be used.
+Interpretation: 
+Functional specification: 
+Precaution: 
+Limitation: 
+Rule 93 (advisory) — A function should be used in preference to a function-like macro.
+Interpretation: 
+Functional specification: 
+Precaution: 
+Limitation: 
+Rule 94 (required) — A function-like macro shall not be 'called' without all of its arguments.
+Interpretation: 
+Functional specification: 
+Precaution: 
+Limitation: 
+Rule 95 (required) — Arguments to a function-like macro shall not contain tokes that look like
+Interpretation: 
+Functional specification: 
+Precaution: 
+Limitation: 
+Rule 96 (required) — In  the  definition  of  a  function-like  macro  the  whole  definition,  and  each
+Interpretation: 
+Functional specification: 
+Precaution: 
+Limitation: 
+Rule 97 (advisory) — Identifiers in pre-processor directives should be defined before use.
+Interpretation: 
+Functional specification: 
+Precaution: 
+Limitation: 
+Rule 98 (required) — There  shall  be  at  most  one  occurrence  of  the  #  or  ##  pre-processor
+Interpretation: 
+Functional specification: 
+Precaution: 
+Limitation: 
+Rule 99 (required) — All uses of the #pragma directive shall be documented and explained.
+Interpretation: 
+Functional specification: 
+Precaution: 
+Limitation: 
+Rule 100 (required) — The defined pre-processor operator shall only be used in one of the two
+Interpretation: 
+Functional specification: 
+Precaution: 
+Limitation: 
+Rule 101 (advisory) — Pointer arithmetic should not be used.
+Interpretation: 
+Functional specification: 
+Precaution: 
+Limitation: 
+Rule 102 (advisory) — No more than 2 levels of pointer indirection should be used.
+Interpretation: 
+Functional specification: 
+Precaution: 
+Limitation: 
+Rule 103 (required) — Relational operators shall not be applied to pointer types except where
+Interpretation: 
+Functional specification: 
+Precaution: 
+Limitation: 
+Rule 104 (required) — Non-constant pointers to functions shall not be used.
+Interpretation: 
+Functional specification: 
+Precaution: 
+Limitation: 
+Rule 105 (required) — All  the  functions  pointed  to  by  a  single  pointer  to  function  shall  be
+Interpretation: 
+Functional specification: 
+Precaution: 
+Limitation: 
+Rule 106 (required) — The address of an object with automatic storage shall not be assigned to
+Interpretation: 
+Functional specification: 
+Precaution: 
+Limitation: 
+Rule 107 (required) — The null pointer shall not be de-referenced.
+Interpretation: 
+Functional specification: 
+Precaution: 
+Limitation: 
+Rule 108 (required) — In  the  specification  of  structure  or  union  type,  all  members  of  the
+Interpretation: 
+Functional specification: 
+Precaution: 
+Limitation: 
+Rule 109 (required) — Overlapping variable storage shall not be used.
+Interpretation: 
+Functional specification: 
+Precaution: 
+Limitation: 
+Rule 110 (required) — Unions shall not be used to access the sub-parts of larger data types.
+Interpretation: 
+Functional specification: 
+Precaution: 
+Limitation: 
+Rule 111 (required) — Bit fields shall only be defined to be of type unsigned int or signed int.
+Interpretation: 
+Functional specification: 
+Precaution: 
+Limitation: 
+Rule 112 (required) — Bit fields of type signed int shall be at least 2 bits long.
+Interpretation: 
+Functional specification: 
+Precaution: 
+Limitation: 
+Rule 113 (required) — All the members of a structure (or union) shall be named and shall only
+Interpretation: 
+Functional specification: 
+Precaution: 
+Limitation: 
+Rule 114 (required) — Reserved  words  and  standard  library  function  names  shall  not  be
+Interpretation: 
+Functional specification: 
+Precaution: 
+Limitation: 
+Rule 115 (required) — Standard library function names shall not be reused.
+Interpretation: 
+Functional specification: 
+Precaution: 
+Limitation: 
+Rule 116 (required) — All libraries used in production code shall be written to comply with the
+Interpretation: 
+Functional specification: 
+Precaution: 
+Limitation: 
+Rule 117 (required) — The validity of values passed to library functions shall be checked.
+Interpretation: 
+Functional specification: 
+Precaution: 
+Limitation: 
+Rule 118 (required) — Dynamic heap memory allocation shall not be used.
+Interpretation: 
+Functional specification: 
+Precaution: 
+Limitation: 
+Rule 119 (required) — The error indicator errno shall not be used.
+Interpretation: 
+Functional specification: 
+Precaution: 
+Limitation: 
+Rule 120 (required) — The macro offsetof, in library <stddef.h>, shall not be used.
+Interpretation: 
+Functional specification: 
+Precaution: 
+Limitation: 
+Rule 121 (required) — <locale.h> and the setlocale function shall not be used.
+Interpretation: 
+Functional specification: 
+Precaution: 
+Limitation: 
+Rule 122 (required) — The setjmp macro and the longjmp function shall not be used.
+Interpretation: 
+Functional specification: 
+Precaution: 
+Limitation: 
+Rule 123 (required) — The signal handling facilities of <signal.h> shall not be used.
+Interpretation: 
+Functional specification: 
+Precaution: 
+Limitation: 
+Rule 124 (required) — The input/output library <stdio.h> shall not be used in production code.
+Interpretation: 
+Functional specification: 
+Precaution: 
+Limitation: 
+Rule 125 (required) — The library functions atof, atoi, and atol from library <stdlib.h> shall not
+Interpretation: 
+Functional specification: 
+Precaution: 
+Limitation: 
+Rule 126 (required) — The  library  functions  about,  exit,  getenv,  and  system  from  library
+Interpretation: 
+Functional specification: 
+Precaution: 
+Limitation: 
+Rule 127 (required) — The time handling functions of library <time.h> shall not be used.
+Interpretation: 
+Functional specification: 
+Precaution: 
+Limitation: 
